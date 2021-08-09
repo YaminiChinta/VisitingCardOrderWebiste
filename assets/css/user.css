@@ -1,0 +1,252 @@
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+#designs{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #c2eaba;
+    background-image: linear-gradient(319deg, #c2eaba 0%, #c5f4e0 37%, #efc2cf 100%);
+    
+}
+  #contact {
+    background-color: #ffbd77;
+    background-image: linear-gradient(319deg, #ffbd77 0%, #f0f4a4 37%, #acfcd9 100%);
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .bg-image {
+    background-image: url('https://lh3.googleusercontent.com/pMk2tty-u4b8nIQ4aPw7nfYy-d11yToR_h2jBpKnCP_3I7bSnQY-eBAXQg-un82QYJdIGtQYEyXlxHRJ=w768-h768-n-o-v1');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.pricing-table{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  background-color: #eee;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table .block-heading {
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center; 
+}
+
+.pricing-table .block-heading h2 {
+  color: #3b99e0;
+}
+
+.pricing-table .block-heading p {
+  text-align: center;
+  max-width: 420px;
+  margin: auto;
+  opacity: 0.7; 
+}
+
+.pricing-table .heading {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+}
+
+.pricing-table .item {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.075);
+  border-top: 2px solid #5ea4f3;
+  padding: 30px;
+  overflow: hidden;
+  position: relative; 
+}
+
+.pricing-table .col-md-5:not(:last-child) .item {
+  margin-bottom: 30px; 
+}
+
+.pricing-table .item button {
+  font-weight: 600; 
+}
+
+.pricing-table .ribbon {
+  width: 160px;
+  height: 32px;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+  background: #4dbe3b;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -42px;
+  top: 20px;
+  padding-top: 7px; 
+}
+
+.pricing-table .item p {
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7; 
+}
+
+.pricing-table .features .feature {
+  font-weight: 600; }
+
+.pricing-table .features h4 {
+  text-align: center;
+  font-size: 18px;
+  padding: 5px; 
+}
+
+.pricing-table .price h4 {
+  margin: 15px 0;
+  font-size: 45px;
+  text-align: center;
+  color: #2288f9; 
+}
+
+.pricing-table .buy-now button {
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  padding: 9px 0; 
+}
+#payment{
+    background-color: #cdedfd;  
+    background-image: linear-gradient(319deg, #cdedfd 0%, #ffec82 37%, #ffcfd2 100%);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.rounded {
+    border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+    color: #555
+}
+
+.nav-pills .nav-link.active {
+    color: white
+}
+
+input[type="radio"] {
+    margin-right: 5px
+}
+
+.bold {
+    font-weight: bold
+}
+
+
+/*footer*/
+footer{
+    
+    height: 360px;
+    color: rgb(112, 184, 243);
+    position: relative;
+}
+footer h6{
+    color: rgb(44, 41, 41);
+}
+footer p{
+    color: rgb(51, 49, 49);
+}
+footer .container-large{
+    margin: 25px;
+}
+footer .feed{
+    height: 50px;
+    color: #c76262;
+    background-color: rgb(15, 15, 15);
+    border: black;
+    font-size: small;
+}
+footer .feed::placeholder{
+    color: #bb3232;
+}
+footer .feed:focus{
+    background-color: black;
+}
+
+#order{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #ffe1c2;
+/* background-image: linear-gradient(319deg, #ffbd77 0%, #f0f4a4 37%, #acfcd9 100%); */
+
+}
+@import "font-awesome.min.css";
+@import "font-awesome-ie7.min.css";
+
+.header,
+.marketing,
+.footer {
+padding-right: 15px;
+padding-left: 15px;
+}
+.header {
+border-bottom: 1px solid #e5e5e5;
+}
+.header h3 {
+padding-bottom: 19px;
+margin-top: 0;
+margin-bottom: 0;
+line-height: 40px;
+}
+.footer {
+padding-top: 19px;
+color: #777;
+border-top: 1px solid #e5e5e5;
+}
+@media (min-width: 768px) {
+.container {
+    max-width: 730px;
+}
+}
+.container-narrow > hr {
+margin: 30px 0;
+}
+.jumbotron {
+text-align: center;
+border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+padding: 14px 24px;
+font-size: 21px;
+}
+.marketing {
+margin: 40px 0;
+}
+.marketing p + h4 {
+margin-top: 28px;
+}
+
+@media screen and (min-width: 768px) {
+.header,
+.marketing,
+.footer {
+    padding-right: 0;
+    padding-left: 0;
+}
+.header {
+    margin-bottom: 30px;
+}
+.jumbotron {
+    border-bottom: 0;
+}
+}
